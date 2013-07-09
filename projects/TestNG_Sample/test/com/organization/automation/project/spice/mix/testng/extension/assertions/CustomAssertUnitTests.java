@@ -64,7 +64,7 @@ public class CustomAssertUnitTests {
 	@Test
 	public void testBigIntegerAssert_bigNumbersEqualObjectCase() {
 		BigInteger expected = new BigInteger("2147483648");
-		BigInteger actual   = null;//expected;
+		BigInteger actual   = expected;
 		
 		assertEquals(MSG, expected, actual);
 	}
